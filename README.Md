@@ -6,4 +6,4 @@ This repository contains a collection of Operating System (OS) lab programs, inc
 |---------------------------|-------------|
 | **Assignment-1**                | Basic Programs for learning syntax and logics. |
 | **Assignment-2**          | Some common prograns using functions. |
-| **Assignment**          | Upcoming.. |
+| **Assignment**          | Command line, program in range etc |
