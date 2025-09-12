@@ -1,5 +1,4 @@
 
-echo "Print Non-Fibonacci Series"
 echo -n "Enter number n (upper limit): "
 read n
 
@@ -7,12 +6,14 @@ read n
 a=0
 b=1
 fib=()
-while [ $a -le $n ]
-do
-  fib=$((fib+$a))
-  c=$((a + b))
-  a=$b
-  b=$c
+while true; do
+    c=$((a + b))
+    if [ $c -gt $n ]; then
+        break
+    fi
+    fib+=($c)
+    a=$b
+    b=$c
 done
 
 echo "Non-Fibonacci series up to $n is:"
