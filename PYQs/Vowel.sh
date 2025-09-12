@@ -4,7 +4,7 @@ count=0
 v=0
 for((i=0;i<len;i++))
 do
-	f=${str:$i:1}
+	f=$(echo "$str" | cut -c $((i+1)))
 	echo "$f"
 	if [ $f = "a" -o $f = "e" -o $f = "i" -o $f = "o" -o $f = "u" ]
 	then

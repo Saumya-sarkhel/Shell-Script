@@ -1,5 +1,6 @@
 # 153 = 1*1*1 + 5*5*5 + 3*3*3
-echo "Armstrong Number Checking"
+# Check the number is Armstrong or not
+
 echo -n "Enter a number: "
 read num
 
@@ -22,8 +23,8 @@ do
   i=0
   while [ $i -lt $count ]
   do
-    pow=$((pow * digit))
-    i=$((i + 1))
+        pow=$((pow * digit))
+        i=$((i + 1))
   done
   sum=$((sum + pow))
   temp=$((k / 10))
