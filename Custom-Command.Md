@@ -21,6 +21,7 @@ chmod +x greet.sh
 #### Step 3: Place the Script in Your PATH
 
 Move the script to a directory in your PATH, ex: `~/bin`
+
 if `~/bin` does'nt exist then:
 
 
